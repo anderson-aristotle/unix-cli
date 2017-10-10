@@ -1,4 +1,4 @@
-# Directories and Paths
+ # Directories and Paths
 
 Use whiteboard to illustrate the "tree" metaphor and how it relates to file paths.
 
@@ -10,6 +10,10 @@ To get to root in finder: command + shift + g
 In Ubuntu files: click computer
 
 Demonstrate some relative paths.
+
+### Tab complete
+
+Make sure to that you use tab complete in all code-alongs, and discuss it with the class. 
 
 # Files
 
