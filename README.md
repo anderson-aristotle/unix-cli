@@ -193,7 +193,7 @@ editing the file name to correct it?
 ### Lab: Copying a Hidden File
 Hidden files in your file system are denoted by a leading `.`. You can see these files using the command `ls -a`.
 Create a hidden file `.env`.
-Copy this file using the command `cp -a <original_name> <new_name>` to a new file named `.newEnv`.
+Copy this file using the command `cp <original_name> <new_name>` to a new file named `.newEnv`.
 Check your work by typing `ls -a`.
 
 ### Code Along: Deleting a File
