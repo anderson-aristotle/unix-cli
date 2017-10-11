@@ -125,6 +125,16 @@ There are two special relative directories.
 So, in order to navigate to a grandparent (parent of a parent) directory from
 the current directory, what command would we use?
 
+### Tab Complete
+
+Files paths can be very long, and typing them by hand is time consuming and error-prone. Fortunately, your terminal has a feature called tab completion that fills in file and directory names for you. It behaves a bit like autocorrect on a smartphone, except that you have to hit the tab key to make it happen.
+
+Tab complete can be used with both relative and absolute paths. If I have a file called `a-very-very-long-filename.txt` in my current working directory, I can type `a-v` (the first few letters of the filename) and hit tab, and it will complete the filename for me.
+
+Let's say I want to type the absolute path to that file, which is `/home/caleb/Documents/a-very-very-long-filename.txt`. I can do that very quickly with tab complete! I could type `/h`, then hit tab, then `c` or `ca` and tab again, then `D` and hit tab, then `a-v` or `a-`, just like above.
+
+Not only is this faster, but it will let you know if the file/directory you're looking for really exists, preventing lots of common mistakes. If you try to tab complete a file or directory that doesn't exist, nothing will happen. You should use tab complete whenever possible!
+
 ### Lab: Make a Subdirectory
 
 Now that we're back in the home directory, let's create a place to store all the
@@ -193,7 +203,7 @@ editing the file name to correct it?
 ### Lab: Copying a Hidden File
 Hidden files in your file system are denoted by a leading `.`. You can see these files using the command `ls -a`.
 Create a hidden file `.env`.
-Copy this file using the command `cp -a <original_name> <new_name>` to a new file named `.newEnv`.
+Copy this file using the command `cp <original_name> <new_name>` to a new file named `.newEnv`.
 Check your work by typing `ls -a`.
 
 ### Code Along: Deleting a File
