@@ -38,11 +38,13 @@ systems.
 
 ### Code Along: Explore the Home Directory
 
-Open your file explorer application. By default, new windows open in your home
-directory. Note the files you see there.
+Open your file explorer application. Note the files you
+see there.
 
-Now, open your terminal emulator. By default, new sessions start in your home
-directory as well. How can we tell? Let's inspect the files in our current
+_Note: New windows don't open to the Home directory by default for Mac users. In order to find this directory, click on **Go** and then **Home** at the top left of the computer screen._
+
+Now, open your terminal emulator. By default, new sessions start in your _Home_
+directory. How can we tell? Let's inspect the files in our current
 directory with the `ls` command (mnemonic: "list"). You should see the same
 files and directories in your explorer and your terminal.
 
