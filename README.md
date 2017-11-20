@@ -27,7 +27,7 @@ You're probably used to creating files and folders using your operating system's
 
 -   Mac: Finder
 -   Windows: Explorer
--   Ubuntu: Nautilus
+-   Ubuntu: Files
 
 On unix-like systems (sometimes refered to as *nix or POSIX), all your files are
 stored in your home folder. On Windows, your files are usually stored in "My
