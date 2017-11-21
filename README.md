@@ -189,6 +189,13 @@ Verify that your directory structure resembles the following:
 └── trainings
 ```
 
+Now that we have our wdi directory setup, use the `mv` command to move some
+files into it.
+
+Find where the `orientation` and `installfest` directories are
+stored (may be in the home directory). Then move those directories into the
+`training` directory.
+
 ## Files
 
 Let's use the `tmp` directory to play around. `tmp` directories are
