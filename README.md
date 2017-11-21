@@ -55,11 +55,11 @@ explorer application. They're just convenient ways of grouping files together.
 Paths are string (textual) representations of your current place in the file
 hiearchy (or "tree").
 
-Examine this path: `/Users/berzelba`. The leading slash (`/`) is the root of the
+Examine this path: `/Users/GA`. The leading slash (`/`) is the root of the
 file system. The next part `Users` indicates that there is a directory, or
 folder, with the name "Users" inside the root of the file system. Within the
-"Users" directory is another directory named `berzelba`. The string
-`/Users/berzelba` is an absolute path to the home directory for the current user
+"Users" directory is another directory named `GA`. The string
+`/Users/GA` is an absolute path to the home directory for the current user
 on my machine.
 
 ### Absolute Paths
@@ -108,7 +108,7 @@ Relative paths are paths described with respect to the current working
 directory. What command do we use to figure out our current working directory?
 
 So if I'm in my home directory and I see a folder `projects` (how would I see
-that?), I can guess the full path to `projects` is `/Users/JWeeks/projects`.
+that?), I can guess the full path to `projects` is `/Users/GA/projects`.
 However, since I'm already in the home folder, the `ls` command tells me only
 unique part of the name needed to distinguish it from sibling directories.
 Sibling directories are directories that exist "beside" other directories,
@@ -133,7 +133,7 @@ Files paths can be very long, and typing them by hand is time consuming and erro
 
 Tab complete can be used with both relative and absolute paths. If I have a file called `a-very-very-long-filename.txt` in my current working directory, I can type `a-v` (the first few letters of the filename) and hit tab, and it will complete the filename for me.
 
-Let's say I want to type the absolute path to that file, which is `/home/caleb/Documents/a-very-very-long-filename.txt`. I can do that very quickly with tab complete! I could type `/h`, then hit tab, then `c` or `ca` and tab again, then `D` and hit tab, then `a-v` or `a-`, just like above.
+Let's say I want to type the absolute path to that file, which is `/Users/GA/trainings/a-very-very-long-filename.txt`. I can do that very quickly with tab complete! I could type `/U`, then hit tab, then `G` and tab again, then `t` or `tr` and hit tab, then `a-v` or `a-`, just like above.
 
 Not only is this faster, but it will let you know if the file/directory you're looking for really exists, preventing lots of common mistakes. If you try to tab complete a file or directory that doesn't exist, nothing will happen. You should use tab complete whenever possible!
 
