@@ -2,10 +2,6 @@
 
 # The Unix Command Line
 
-## Summary
-
-Using the Command Line to manipulate the filesystem.
-
 ## Prerequisites
 
 -   [WDI Fundamentals, Chapter 2](http://fundamentals.generalassemb.ly/02_unit/developer-tools-intro.html)
