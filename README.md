@@ -18,6 +18,13 @@
 
 ## Preparation
 
+Your instructor will guide you through the following steps.
+
+1.  Fork and clone this repository.
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
+1.  Create a new branch, `training`, for your work.
+1.  Checkout to the `training` branch.
+
 ## Exploring the File System
 
 You're probably used to creating files and folders using your operating system's
