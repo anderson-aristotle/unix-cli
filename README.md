@@ -2,32 +2,37 @@
 
 # The Unix Command Line
 
-## Summary
-
-Using the Command Line to manipulate the filesystem.
-
 ## Prerequisites
 
--   [WDI Fundamentals, Chapter 2](http://fundamentals.generalassemb.ly/02_unit/developer-tools-intro.html)
+- WDI Fundamentals
 
 ## Objectives
 
--   View files within a directory.
--   Create a directory (folder) in which to store a project.
--   Create subdirectories to organize a project.
--   Create files to contain project information.
--   Edit and delete files.
--   Navigate within a project.
--   Get help from user manuals.
+- View files within a directory.
+- Create a directory (folder) in which to store a project.
+- Create subdirectories to organize a project.
+- Create files to contain project information.
+- Edit and delete files.
+- Navigate within a project.
+- Get help from user manuals.
+
+## Preparation
+
+Your instructor will guide you through the following steps.
+
+1.  Fork and clone this repository.
+ [FAQ](https://git.generalassemb.ly/ga-wdi-boston/meta/wiki/ForkAndClone)
+1.  Create a new branch, `training`, for your work.
+1.  Checkout to the `training` branch.
 
 ## Exploring the File System
 
 You're probably used to creating files and folders using your operating system's
 "explorer" program. The common explorer programs found on each OS are:
 
--   Mac: Finder
--   Windows: Explorer
--   Ubuntu: Files
+- Mac: Finder
+- Windows: Explorer
+- Ubuntu: Files
 
 On unix-like systems (sometimes refered to as *nix or POSIX), all your files are
 stored in your home folder. On Windows, your files are usually stored in "My
@@ -75,8 +80,8 @@ command line.
 
 Absolute paths:
 
--   Always start with a leading slash, '/'
--   Are relative to the root directory of the file system.
+- Always start with a leading slash, '/'
+- Are relative to the root directory of the file system.
 
 The root directory the top level directory in the tree structure that makes up
 your project or file system. When we talk about absolute paths, the paths are
@@ -123,8 +128,8 @@ absolute paths, `cd` can take relative paths to navigate the file system. Neat!
 
 There are two special relative directories.
 
--   `..` represents the parent directory.
--   `.` represents the current directory.
+- `..` represents the parent directory.
+- `.` represents the current directory.
 
 So, in order to navigate to a grandparent (parent of a parent) directory from
 the current directory, what command would we use?
@@ -168,13 +173,13 @@ Now, what folder are you in? Did it change by making the new directory?
 Create the following directories as well. They should be subdirectories of
 `wdi`.
 
--   `trainings`
--   `diagnostics`
--   `projects`
--   `tmp`
--   `challenges`
--   `practices`
--   `studies`
+- `trainings`
+- `diagnostics`
+- `projects`
+- `tmp`
+- `challenges`
+- `practices`
+- `studies`
 
 Verify that your directory structure resembles the following:
 
@@ -224,6 +229,7 @@ Let's say that we didn't mean to call the file `name.txt`, how would we go about
 editing the file name to correct it?
 
 ### Lab: Copying a Hidden File
+
 Hidden files in your file system are denoted by a leading `.`. You can see these
 files using the command `ls -a`.
 Create a hidden file `.env`.
@@ -279,15 +285,15 @@ Don't just cut and paste from some definition on the web!
 
 ### References
 
--   [Teaching Unix](http://www.ee.surrey.ac.uk/Teaching/Unix/)
--   [Unix Cheat Sheet](https://www.rain.org/~mkummel/unix.html)
--   [Unix Power Tools](http://shop.oreilly.com/product/9780596003302.do)
--   [Explain Shell](http://explainshell.com)
--   [TLDR Man Pages](http://tldr-pages.github.io)
--   [Command Line Fu](http://www.commandlinefu.com/commands/browse)
+- [Teaching Unix](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+- [Unix Cheat Sheet](https://www.rain.org/~mkummel/unix.html)
+- [Unix Power Tools](http://shop.oreilly.com/product/9780596003302.do)
+- [Explain Shell](http://explainshell.com)
+- [TLDR Man Pages](http://tldr-pages.github.io)
+- [Command Line Fu](http://www.commandlinefu.com/commands/browse)
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
