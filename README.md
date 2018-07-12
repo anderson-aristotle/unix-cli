@@ -283,7 +283,7 @@ Create a cheat sheet of the unix commands that we've used so far. I like to
 these kinds of files for reference. Describe each command in your own words.
 Don't just cut and paste from some definition on the web!
 
-### References
+### Additional Resources
 
 - [Teaching Unix](http://www.ee.surrey.ac.uk/Teaching/Unix/)
 - [Unix Cheat Sheet](https://www.rain.org/~mkummel/unix.html)
@@ -294,6 +294,6 @@ Don't just cut and paste from some definition on the web!
 
 ## [License](LICENSE)
 
-1. All content is licensed under a CC­BY­NC­SA 4.0 license.
-1. All software code is licensed under GNU GPLv3. For commercial use or
+1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
+1.  All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.
