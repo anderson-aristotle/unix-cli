@@ -1,3 +1,10 @@
+# Terminal
+
+Action        | Mac                       | Linux
+------------- | ------------------------- | ----------------
+open terminal | `CMND + space + terminal` | `CTRL + ALT + T`
+save          | `CMND + S`                | `CTRL + S`
+
  # Directories and Paths
 
 Use whiteboard to illustrate the "tree" metaphor and how it relates to file paths.
@@ -13,7 +20,7 @@ Demonstrate some relative paths.
 
 ### Tab complete
 
-Make sure to that you use tab complete in all code-alongs, and discuss it with the class. 
+Make sure to that you use tab complete in all code-alongs, and discuss it with the class.
 
 # Files
 
